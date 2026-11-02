@@ -1,0 +1,33 @@
+Original Dataset:
+     Name Age Salary Joining_Date  Experience
+0   Kiran  23  30000   2024-01-10         1.5
+1    Ravi  25  45000   2023-05-15         3.0
+2   Priya  22  35000   2024-03-20         2.0
+3  Suresh  24  40000   2022-08-12         4.5
+4     Anu  21  32000   2023-11-05         1.0
+
+Original Data Types:
+Name                str
+Age                 str
+Salary              str
+Joining_Date        str
+Experience      float64
+dtype: object
+
+Corrected Data Types:
+Name                       str
+Age                      int64
+Salary                   int64
+Joining_Date    datetime64[us]
+Experience             float64
+dtype: object
+
+Cleaned Dataset:
+     Name  Age  Salary Joining_Date  Experience
+0   Kiran   23   30000   2024-01-10         1.5
+1    Ravi   25   45000   2023-05-15         3.0
+2   Priya   22   35000   2024-03-20         2.0
+3  Suresh   24   40000   2022-08-12         4.5
+4     Anu   21   32000   2023-11-05         1.0
+
+Data type cleaning completed successfully!
